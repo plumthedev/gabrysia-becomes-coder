@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{54F686F4-685C-44FA-9A7E-1DBF1452541F}</ProjectGuid>
+    <ProjectGuid>{A178E6CB-0FDF-4332-8163-8DE04172079E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>registration_process</RootNamespace>
-    <AssemblyName>registration-process</AssemblyName>
+    <RootNamespace>registration_form</RootNamespace>
+    <AssemblyName>registration-form</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
