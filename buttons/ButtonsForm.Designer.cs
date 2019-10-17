@@ -1,4 +1,4 @@
-﻿namespace Batony
+﻿namespace Buttons
 {
     partial class ButtonsForm
     {

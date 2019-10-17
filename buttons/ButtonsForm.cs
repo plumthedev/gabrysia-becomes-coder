@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace Batony
+namespace Buttons
 {
     public partial class ButtonsForm : Form
     {
@@ -17,7 +17,7 @@ namespace Batony
         }
 
         public void PersonalizeFormWindow() {
-            Text = "Zadanie - Batony";
+            Text = "Zadanie - Buttons";
             MaximizeBox = false;
         }
 
