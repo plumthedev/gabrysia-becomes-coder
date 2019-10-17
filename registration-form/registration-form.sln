@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29020.237
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "registration-form", "registration-form.csproj", "{A178E6CB-0FDF-4332-8163-8DE04172079E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegistrationForm", "RegistrationForm.csproj", "{A178E6CB-0FDF-4332-8163-8DE04172079E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
