@@ -1,6 +1,6 @@
 ﻿namespace Batony
 {
-    partial class ButonsForm
+    partial class ButtonsForm
     {
         /// <summary>
         /// Wymagana zmienna projektanta.
@@ -67,7 +67,7 @@
             this.subjectButton.Text = "Przedmiot";
             this.subjectButton.UseVisualStyleBackColor = true;
             // 
-            // ButonsForm
+            // ButtonsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -75,9 +75,9 @@
             this.Controls.Add(this.subjectButton);
             this.Controls.Add(this.departmentButton);
             this.Controls.Add(this.authorButton);
-            this.Name = "ButonsForm";
-            this.Text = "ButonsForm";
-            this.Load += new System.EventHandler(this.ButonsForm_Load);
+            this.Name = "ButtonsForm";
+            this.Text = "ButtonsForm";
+            this.Load += new System.EventHandler(this.ButtonsForm_Load);
             this.ResumeLayout(false);
 
         }

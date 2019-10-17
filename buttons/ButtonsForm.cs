@@ -3,14 +3,14 @@ using System.Windows.Forms;
 
 namespace Batony
 {
-    public partial class ButonsForm : Form
+    public partial class ButtonsForm : Form
     {
-        public ButonsForm()
+        public ButtonsForm()
         {
             InitializeComponent();
         }
 
-        private void ButonsForm_Load(object sender, EventArgs e)
+        private void ButtonsForm_Load(object sender, EventArgs e)
         {
             PersonalizeFormWindow();
             AddButtonsEvents();

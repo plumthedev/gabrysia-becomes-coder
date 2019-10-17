@@ -13,7 +13,7 @@ namespace Batony
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ButonsForm());
+            Application.Run(new ButtonsForm());
         }
     }
 }
