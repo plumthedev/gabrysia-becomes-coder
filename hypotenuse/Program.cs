@@ -21,7 +21,8 @@ namespace Hypotenuse
             Console.ReadKey();
         }
 
-        static int CalculateHypotenuseLength(int a, int b) {
+        static int CalculateHypotenuseLength(int a, int b)
+        {
             double pythagoreanTheoremResult = CalculatePythagoreanTheorem(Convert.ToDouble(a), Convert.ToDouble(b));
             double hypotenuseLength = Math.Sqrt(pythagoreanTheoremResult);
             int hypotenuseLengthInt = Convert.ToInt32(hypotenuseLength);
@@ -29,14 +30,16 @@ namespace Hypotenuse
             return hypotenuseLengthInt;
         }
 
-        static double CalculateHypotenuseLength(double a, double b) {
+        static double CalculateHypotenuseLength(double a, double b)
+        {
             double pythagoreanTheoremResult = CalculatePythagoreanTheorem(a, b);
             double hypotenuseLength = Math.Sqrt(pythagoreanTheoremResult);
             Console.WriteLine($"Długość przeciwprostokątnej typu double wynosi {hypotenuseLength}");
             return hypotenuseLength;
         }
-        
-        static decimal CalculateHypotenuseLength(decimal a, decimal b) {
+
+        static decimal CalculateHypotenuseLength(decimal a, decimal b)
+        {
             double pythagoreanTheoremResult = CalculatePythagoreanTheorem(Convert.ToDouble(a), Convert.ToDouble(b));
             double hypotenuseLength = Math.Sqrt(pythagoreanTheoremResult);
             decimal hypotenuseLengthDecimal = Convert.ToDecimal(hypotenuseLength);
