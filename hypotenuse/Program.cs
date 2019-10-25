@@ -28,12 +28,14 @@ namespace Hypotenuse
             Console.WriteLine($"Długość przeciwprostokątnej typu int wynosi {hypotenuseLengthInt}");
             return hypotenuseLengthInt;
         }
+
         static double CalculateHypotenuseLength(double a, double b) {
             double pythagoreanTheoremResult = CalculatePythagoreanTheorem(a, b);
             double hypotenuseLength = Math.Sqrt(pythagoreanTheoremResult);
             Console.WriteLine($"Długość przeciwprostokątnej typu double wynosi {hypotenuseLength}");
             return hypotenuseLength;
         }
+        
         static decimal CalculateHypotenuseLength(decimal a, decimal b) {
             double pythagoreanTheoremResult = CalculatePythagoreanTheorem(Convert.ToDouble(a), Convert.ToDouble(b));
             double hypotenuseLength = Math.Sqrt(pythagoreanTheoremResult);
